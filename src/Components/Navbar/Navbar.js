@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import logo2 from './Images/logo2';
 
 export class Navbar extends Component {
     render() {
         return (
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <Link className='navbar-brand' to='/'>
-                    <img
-                        src={logo2}
+                    <h5 className='navbar-text'>Draketown Missionary Baptist Church</h5>
+                    {/* <img
+                        src={logo}
                         alt='logo'
                         className='brand-logo'
-                    ></img>
-                </Link>
+                    ></img> */}
+                </Link> 
 
                 <button
                     className="navbar-toggler"
@@ -27,7 +27,7 @@ export class Navbar extends Component {
                 </button>
 
                 <div className="collapse navbar-collapse" id="navbarColor02">
-                    <ul className="navbar-nav mr-auto">
+                    <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
                             <Link
                                 to='/'

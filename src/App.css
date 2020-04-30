@@ -9,7 +9,6 @@ body {
   line-height: 1.4;
 }
 
-a {
-  color: #333;
-  text-decoration: none;
+h5.navbar-text {
+  color: maroon;
 }
